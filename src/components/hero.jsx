@@ -3,22 +3,27 @@ export default function Hero(){
       <div
         style={{
           display: "flex",
-          
+          width: "100%",
           //alignItems: "start",
           //justifyContent: "center",
         }}
       >
         <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
+          style={
+            {
+              // display: "flex",
+              //flexDirection: "column",
+              //alignItems: "center",
+              //justifyContent: "center",
+              //background: "red",
+            }
+          }
         >
           <div
             style={{
-              width: "38%",
+              
+              width: "40%",
+              
             }}
           >
             <p
@@ -26,6 +31,7 @@ export default function Hero(){
                 fontSize: "30px",
                 fontWeight: "bold",
                 marginBottom: "0px",
+                background: "blue",
               }}
             >
               Master Your Knowledge with Quick Quizzes
@@ -50,11 +56,13 @@ export default function Hero(){
             </button>
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{ display: "flex", justifyContent: "center", width: "60%" }}
+        >
           <img
             src="/assets/hero2.png"
             style={{
-              width: "100%",
+              width: "90%",
               //height: "70vh"
             }}
           />
