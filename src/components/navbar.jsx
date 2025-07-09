@@ -15,43 +15,10 @@ export default function Navbar() {
           <a href="">Features</a>
         </div>
 
-        <div className="nav-content2"
-          style={{
-            display: "flex",
-            gap: "20px",
-            alignItems: "center",
-          }}
-        >
-          <a
-            href=""
-            style={{
-              color: "white",
-              textDecoration: "none",
-              fontWeight: "bold",
-            }}
-          >
-            Login
-          </a>
-          <a
-            href=""
-            style={{
-              color: "white",
-              textDecoration: "none",
-              fontWeight: "bold",
-            }}
-          >
-            <button
-              style={{
-                border: "1px solid white",
-                padding: "5px",
-                background: "white",
-                color: "#FF6B6B",
-                fontWeight: "bold",
-                cursor: "pointer",
-              }}
-            >
-              Take a quiz
-            </button>
+        <div className="nav-content2">
+          <a href="">Login</a>
+          <a href="">
+            <button>Take a quiz</button>
           </a>
         </div>
       </div>
