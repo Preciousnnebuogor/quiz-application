@@ -1,72 +1,19 @@
-export default function Hero(){
-    return (
-      <div
-        style={{
-          display: "flex",
-          width: "100%",
-          //alignItems: "start",
-          //justifyContent: "center",
-        }}
-      >
-        <div
-          style={
-            {
-              // display: "flex",
-              //flexDirection: "column",
-              //alignItems: "center",
-              //justifyContent: "center",
-              //background: "red",
-            }
-          }
-        >
-          <div
-            style={{
-              
-              width: "40%",
-              
-            }}
-          >
-            <p
-              style={{
-                fontSize: "30px",
-                fontWeight: "bold",
-                marginBottom: "0px",
-                background: "blue",
-              }}
-            >
-              Master Your Knowledge with Quick Quizzes
-            </p>
+export default function Hero() {
+  return (
+    <div className="hero-container">
+      <div className="hero-section1">
+        <p className="param1">Master Your Knowledge with Quick Quizzes</p>
+        <p className="param2"> Fun, Fast, and Free!</p>
 
-            <p style={{ marginTop: "0px" }}>
-              Fun, Fast, and Free! Challenge yourself, learn new things, and
-              track your , progress with our engaging quizzes across various
-              topics!
-            </p>
-            <button
-              style={{
-                padding: "10px",
-                background: "#ff6b6b",
-                color: "white",
-                fontWeight: "bold",
-                cursor: "pointer",
-                border: "none",
-              }}
-            >
-              Take a quiz
-            </button>
-          </div>
-        </div>
-        <div
-          style={{ display: "flex", justifyContent: "center", width: "60%" }}
-        >
-          <img
-            src="/assets/hero2.png"
-            style={{
-              width: "90%",
-              //height: "70vh"
-            }}
-          />
-        </div>
+        <p className="param3">
+          Fun, Fast, and Free! Challenge yourself, learn new things, and track
+          your , progress with our engaging quizzes across various topics!
+        </p>
+        <button className="hero-butt">Take a quiz</button>
       </div>
-    );
+      <div className="hero-section2">
+        <img src="/assets/hero2.png" style={{width: "100%",maxHeight: "80vh",objectFit: "contain", }}/>
+      </div>
+    </div>
+  );
 }
