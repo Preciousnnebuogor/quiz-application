@@ -9,10 +9,15 @@ export default function Hero() {
           Fun, Fast, and Free! Challenge yourself, learn new things, and track
           your , progress with our engaging quizzes across various topics!
         </p>
-        <button className="hero-butt">Take a quiz</button>
+        <a href="/categories">
+          <button className="hero-butt">Take a quiz</button>
+        </a>
       </div>
       <div className="hero-section2">
-        <img src="/assets/hero2.png" style={{width: "100%",maxHeight: "80vh",objectFit: "contain", }}/>
+        <img
+          src="/assets/hero2.png"
+          style={{ width: "100%", maxHeight: "80vh", objectFit: "contain" }}
+        />
       </div>
     </div>
   );

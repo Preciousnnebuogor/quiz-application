@@ -68,9 +68,43 @@ a button {
   cursor: pointer;
   border: none;
 }
-.hero-section2{
+.hero-section2 {
   display: flex;
   justify-content: center;
   width: 60%;
+  margin-top: 0px;
+}
+.cat-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+.cat-border {
+  width: 300px;
+  height: 250px;
+  background-color: #ff6b6b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px #ff6b6b;
+}
+.cat-param1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.cat-param2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  padding:10px;
+  margin-bottom: 0px;
+}
+.cat-param3 {
+  padding: 0px 20px;
   margin-top: 0px;
 }

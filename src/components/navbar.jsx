@@ -12,7 +12,7 @@ export default function Navbar() {
           }}
         />
         <div className="nav-content">
-          <a href="">Home</a>
+          <a href="/">Home</a>
           <a href="">About</a>
           <a href="">Features</a>
         </div>
