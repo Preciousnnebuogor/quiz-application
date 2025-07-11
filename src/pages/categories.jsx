@@ -1,7 +1,7 @@
 export default function CategoriesPage() {
   return (
     <div className="cat-container">
-      <a href="">
+      <a href="/questionhtml">
         <div className="cat-border">
           <p className="cat-param1">HTML</p>
           <p className="cat-param2">
