@@ -14,7 +14,7 @@ export default function CategoriesPage() {
         </div>
       </a>
 
-      <a href="">
+      <a href="/sectionCss">
         <div className="cat-border">
           <p className="cat-param1">CSS</p>
           <p className="cat-param2">How well do you know CSS?</p>
