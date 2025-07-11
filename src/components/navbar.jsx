@@ -13,8 +13,8 @@ export default function Navbar() {
         />
         <div className="nav-content">
           <a href="/">Home</a>
-          <a href="">About</a>
-          <a href="">Features</a>
+          <a href="/about">About</a>
+          <a href="/categories">Features</a>
         </div>
 
         <div className="nav-content2">
