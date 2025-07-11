@@ -1,9 +1,10 @@
-import { useState } from "react";
-import { QuestionCss } from "../components/dataCss";
 
-export default function SectionCss() {
+import { useState } from "react";
+import { QuestionJavascript } from "../components/datajs";
+
+export default function SectionJavascript() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const item = QuestionCss[currentIndex];
+  const item = QuestionJavascript[currentIndex];
   const [isCorrect, setIsCorrect] = useState(false);
 
   return (
@@ -62,7 +63,6 @@ export default function SectionCss() {
                     item.correctIndex === optionIndex && isCorrect
                       ? "green"
                       : "#ff6b6b",
-                  // backgroundColor:"blue",
                   color: "white",
                   cursor: "pointer",
                 }}
@@ -102,7 +102,7 @@ export default function SectionCss() {
             
               onClick={() => {
                 if(!isCorrect) return
-                if (currentIndex > QuestionCss.length - 1) return;
+                if (currentIndex > QuestionJavascript.length - 1) return;
                 setCurrentIndex(currentIndex + 1);
                 setIsCorrect(false);
                 

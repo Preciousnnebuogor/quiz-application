@@ -25,7 +25,7 @@ export default function CategoriesPage() {
         </div>
       </a>
 
-      <a href="">
+      <a href="/sectionjavascript">
         <div className="cat-border">
           <p className="cat-param1">JAVASCRIPT</p>
           <p className="cat-param2">Ready to test your JavaScript skills?</p>

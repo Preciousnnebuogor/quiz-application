@@ -5,6 +5,7 @@ import HomePage from "./pages/home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import QuestionHtml from "./pages/questionhtml";
 import SectionCss from "./pages/sectioncss";
+import SectionJavascript from "./pages/sectionjs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/categories" element={<CategoriesPage />} />
         <Route path="/questionhtml" element={<QuestionHtml />} />
         <Route path="/sectionCss" element={<SectionCss />} />
+        <Route path="/sectionjavascript" element={<SectionJavascript/>} />
       </Routes>
     </BrowserRouter>
   );
